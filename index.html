@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Количество пройденных тестов “OS Doors”</h1>
+  </header>
+
+  <main>
+    <section class="columns">
+      <article id="dev" class="card" style="height: calc(var(--dev-front) / var(--total) * 534px);">
+        <div class="dev-front">66</div>
+        <div class="dev-back">100</div>
+        <div class="dev-db">31</div>
+        <span class="description">dev</span>
+      </article>
+      <article id="test" class="card card__second" style="height: calc(var(--test-front) / var(--total) * 534px);"> 
+        <div class="test-front">60</div>
+        <div class="test-back">80</div>
+        <div class="test-db">31</div>
+        <span class="description">test</span>
+      </article>
+      <article id="prod" class="card card__third" style="height: calc(var(--prod-front) / var(--total) * 534px);">
+        <div class="prod-front">66</div>
+        <div class="prod-back">83</div>
+        <div class="prod-db">31</div>
+        <span class="description">prod</span>
+      </article>
+      <article class="card card__fourth" style="height: calc(var(--prod-front) / var(--total) * 534px);">
+        <div class="norm">
+          <div class="norm__number">150</div>
+          <div class="norm__number">200</div>
+        </div>
+        <span class="description">норматив</span>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="instance">
+      <span class="color blue">Клиентская часть</span>
+      <span class="color purple">Серверная часть</span>
+      <span class="color pink">База данных</span>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
